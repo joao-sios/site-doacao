@@ -1,10 +1,126 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Page Title</title>
-  </head>
-  <body>
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
-  </body>
+    <title>Todos Pelo Bem</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+     <style>
+        body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  float: left;
+  margin-left: 15px;
+  width: 175px;
+  height: 75px;
+}
+s
+.navbar {
+  float: right;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ffffff;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 25px 20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #dfdfdf;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #cecece;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ .logo {
+    max-height: 60px;
+}
+
+     </style>
+</head>
+<body>
+    <div id="button" class="logo">
+        <img src="https://pub-e63b17b4d990438a83af58c15949f8a2.r2.dev/type/acme.png" alt="Logo">
+    </div>
+  <div class="navbar">
+    <ul>
+        <li>
+            <a href="index.html">Início</a>
+        </li>
+        <li>
+            <a href="#">Cadastre-se</a>
+        </li>
+        <li>
+            <div class="dropdown">
+                <button class="dropbtn">Serviços ▾</button>
+                <div class="dropdown-content">
+                    <ul>
+                        <li>
+                            <a href="#">Crianças Vulneraveis</a>
+                        </li>
+                        <li>
+                            <a href="#">Pessoas sem Moradia</a>
+                        </li>
+                        <li>
+                            <a href="#">Tratamentos de Doenças</a>
+                        </li>
+                        <li>
+                            <a href="#">Almoços e Cafés Solidarios</a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+        </li>
+        <li>
+            <a href="#">Sobre</a>
+        </li>
+    </ul>
+  </div>
 </html>
